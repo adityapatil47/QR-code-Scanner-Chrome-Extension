@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR code</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="body">
+  <div class="main">
+    <form action="#">
+      <input type="file" hidden>
+      <img src="" id="QRCode" alt="QRCode" />
+      <div class="content">
+        <img src="Upload.png" id="logo" />
+        <p>Upload QRcode to Scan</p>
+      </div>
+    </form>
+    <div class="details">
+      <textarea disabled></textarea>
+      <div class="buttons">
+        <button id="close">Close</button>
+        <button id="copyUrl">Copy url</button>
+      </div>
+    </div>
+  </div>
+  <h6>© 2022</h6>
+  <script src="app.js"></script>
+</body>
+
+</html>
