@@ -1,9 +1,0 @@
-{
-  "manifest_version": 3,
-  "version": "1.0",
-  "name": "QrCode Reader",
-  "action": {
-    "default_popup": "index.html",
-    "default_icon": "Upload.png"
-  }
-}
